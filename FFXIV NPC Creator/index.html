@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>FFXIV NPC Generator</title>
+    
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <h1>FFXIV Character Name Generator</h1>
+            <p>Select the race/clan and gender to generate a name for your character.</p>
+        </div>
+        <!-- SELECTORS -->
+        <div class="selectors">
+            <div class="selector-race">
+                <h3>Select Race/Clan</h3>
+                <!-- RACE SELECTOR -->
+                <select id ="races" class="races">
+                    <option value="midlander">Midlander Hyur</option>
+                    <option value="highlander">Highlander Hyur</option>
+                    <option value="seeker-of-the-sun">Seeker of the Sun Miqo'te</option>
+                    <option value="keeper-of-the-moon">Keeper of the Moon Miqo'te</option>
+                    <option value="dunesfolk">Dunesfolk Lalafell</option>
+                    <option value="plainsfolk">Plainsfolk Lalafell</option>
+                    <option value="sea-wolf">Sea Wolf Roegadyn</option>
+                    <option value="hellsguard">Hellsguard Roegadyn</option>
+                    <option value="duskwight">Duskwight Elezen</option>
+                    <option value="wildwood">Wildwood Elezen</option>
+                    <option value="raen">Raen Au Ra</option>
+                    <option value="xaela">Xaela Au Ra</option>
+                </select>
+            </div>
+            <div class="selector-gender">
+                <h3>Select Gender</h3>
+                <!-- GENDER SELECTOR -->
+                <select id="gender" name="gender" class="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+        </div>
+        <!-- BUTTON -->
+        <div id="btn" class="btn">
+            <button type="button" class="generate-btn">Create NPC</button>
+        </div>
+        <!-- GENERATED NAME -->
+        <div class="generated-name">
+            <h1 class="name">Name Here</h1>
+        </div>
+    </div>
+    
+</body>
+<script src="app.js"></script>
+</html>

@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
+
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.selectors {
+    justify-content: center;
+    display: flex;
+    padding-bottom: 1em;
+}
+
+.wrapper {
+    text-align: center;
+}

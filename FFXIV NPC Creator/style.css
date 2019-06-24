@@ -1,7 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
 
-body {
+body, html {
     font-family: 'Open Sans Condensed', sans-serif;
+    height: 100%;
+}
+
+.bg-image {
+    background-image: url(imgs/background.png);
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .selectors {
@@ -11,5 +22,20 @@ body {
 }
 
 .wrapper {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0; 
+    left: 0;
     text-align: center;
+    background-color: #d5deed;
+    width: 30%;
+    height: 40%;
+    box-shadow: 0em 0em 3em .5em #b5ccf2;
+    border-radius: 2em;
+}
+
+.generate-btn {
+    box-shadow: 0em 0em 5em 0em darkgrey;
 }
